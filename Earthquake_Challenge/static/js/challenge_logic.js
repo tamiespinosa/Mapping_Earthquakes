@@ -221,6 +221,7 @@ d3.json(techtonicData).then(function(data1) {
   L.geoJSON(data1, {
     style: myStyle,
   }).addTo(techtonicPlates);
-});
 
-tectonicPlates.addTo(map);
+
+techtonicPlates.addTo(map);
+});
